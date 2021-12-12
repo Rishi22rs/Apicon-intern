@@ -1,0 +1,31 @@
+._card{
+  background-size: cover;
+  position: relative;
+  height: 180px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+._icon{
+  position: absolute;
+  bottom: 25px;
+  right: 30px;
+}
+._card_text{
+  font-size: 30px;
+  font-weight: 500;
+  padding-left: 20px;
+  padding-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+._btn{
+  border:none;
+  padding: 10px;
+  background:#E3A487;
+  box-shadow: 4px 5px #888888;
+  transition: 0.1s;
+}
+._btn:hover{
+  background:#e4926c;
+  box-shadow: 2px 3px #888888;
+}
